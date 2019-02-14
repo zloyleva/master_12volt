@@ -1,0 +1,64 @@
+header.container-fluid{
+  position: relative;
+  .contactsTop{
+    .contactsTop-col{
+      .contactsTop-col_phones{
+        a{
+          @include dark-link
+        }
+      }
+    }
+  }
+  .mainMenu{
+    &.fixed-top{
+      .navbar.bg-light {
+        background-color: rgba(248, 249, 250, 0.95)!important;
+      }
+    }
+    .navbar{
+      .navbar-brand{
+        img{
+          width: 135px;
+        }
+      }
+      .navbar-toggler{
+        border: unset;
+        outline: none;
+        position: relative;
+        &[aria-expanded=false]{
+          .icon-bar:nth-child(1), .icon-bar:nth-child(2), .icon-bar:nth-child(3){
+            top: 0;
+            transform-origin: left center;
+          }
+        }
+        &[aria-expanded=true] {
+          .icon-bar:nth-child(1){
+            transform: rotate(45deg);
+            top: 6px;
+          }
+          .icon-bar:nth-child(2){
+            width: 0;
+            opacity: 0;
+          }
+          .icon-bar:nth-child(3){
+            transform: rotate(-45deg);
+            top: -6px;
+          }
+        }
+        .icon-bar {
+          display: block;
+          width: 22px;
+          height: 2px;
+          border-radius: 2px;
+          background-color: #343a40;
+          border: 1px solid;
+          transition: 0.3s ease;
+          position: relative;
+        }
+        .icon-bar+.icon-bar {
+          margin-top: 4px;
+        }
+      }
+    }
+  }
+}

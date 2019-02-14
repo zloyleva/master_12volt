@@ -1,0 +1,31 @@
+main {
+  background-color: #fbfbfb;
+  .container-fluid.description-section{
+    background-image: url("../images/bg-description.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    & > .row{
+      background-color:rgba(52, 58, 64, 0.75);
+      .container{
+        .row{
+          h2{
+            font-size: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .container.content-section{
+    margin-top: -1rem;
+    .row {
+      .col-12{
+        .paper{
+          @include paper;
+        }
+      }
+    }
+  }
+
+}

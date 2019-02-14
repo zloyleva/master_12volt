@@ -34,7 +34,20 @@ module.exports = {
 						presets: ['@babel/preset-env']
 					}
 				}
-			}
+			},
+			{
+				test: /\.(png|jpg|gif)$/,
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							// outputPath: '../',
+							publicPath: '../',
+							name: 'images/[name].[ext]',
+						},
+					},
+				],
+			},
 		]
 	},plugins: [
 		new ExtractTextPlugin('css/style.css')

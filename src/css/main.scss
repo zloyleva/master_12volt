@@ -1,0 +1,13 @@
+@import "variables";
+@import "mixins/paper";
+@import "mixins/links";
+
+@import "main_menu";
+@import "main_section";
+
+.text-red{
+  color: $red;
+}
+.bg-red{
+  background-color: $red !important;
+}

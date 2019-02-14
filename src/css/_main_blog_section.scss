@@ -1,0 +1,56 @@
+.blog-section{
+  .blog-content{
+    .blog-item{
+      article.paper{
+        @include paper;
+        overflow: hidden;
+        .article-header{
+          height: 16rem;
+          a{
+            display: block;
+            height: 100%;
+            .featured-image-container{
+              height: 100%;
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+          }
+        }
+        .content{
+          .title{
+            a{
+              @include light-link;
+              font-weight: bold;
+            }
+          }
+          .meta{
+            span{
+              font-size: 12px;
+              i{
+                font-size: 12px;
+              }
+              a{
+                @include light-link;
+              }
+            }
+          }
+        }
+        .card-footer{
+          a{
+            @include light-link;
+            i{
+              margin-left: 0px;
+              transition: margin-left .3s;
+            }
+            &:hover{
+              i{
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
