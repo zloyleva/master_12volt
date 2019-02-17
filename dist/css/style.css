@@ -99,6 +99,41 @@ main {
     .blog-section .blog-content .blog-item article.paper .card-footer a:hover i {
       margin-left: 10px; }
 
+footer {
+  background-color: #343a40; }
+  footer .container .row .col-12.about-us .navbar-brand img {
+    width: 100%; }
+  footer .container .row .col-12.social .social-list li a {
+    background: #1b1b1b;
+    border-radius: 100%;
+    display: inline-block;
+    transition: all .3s; }
+    footer .container .row .col-12.social .social-list li a i {
+      width: 42px;
+      height: 42px;
+      line-height: 42px;
+      font-size: 18px;
+      text-align: center;
+      border-radius: 50%; }
+    footer .container .row .col-12.social .social-list li a.facebook {
+      color: #3b5998; }
+      footer .container .row .col-12.social .social-list li a.facebook:hover {
+        background: #3b5998; }
+    footer .container .row .col-12.social .social-list li a.twitter {
+      color: #55acee; }
+      footer .container .row .col-12.social .social-list li a.twitter:hover {
+        background: #55acee; }
+    footer .container .row .col-12.social .social-list li a.youtube {
+      color: #b31217; }
+      footer .container .row .col-12.social .social-list li a.youtube:hover {
+        background: #b31217; }
+    footer .container .row .col-12.social .social-list li a.instagram {
+      color: #3f729b; }
+      footer .container .row .col-12.social .social-list li a.instagram:hover {
+        background: #3f729b; }
+    footer .container .row .col-12.social .social-list li a:hover {
+      color: #ffffff; }
+
 .text-red {
   color: #ed1c24; }
 

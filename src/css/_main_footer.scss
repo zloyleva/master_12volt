@@ -1,0 +1,63 @@
+footer{
+  background-color: $dark-gray;
+  .container{
+    .row{
+      .col-12{
+        &.about-us{
+          .navbar-brand{
+            img{
+              width: 100%;
+            }
+          }
+        }
+        &.social{
+          .social-list{
+            li{
+              a{
+                background: #1b1b1b;
+                border-radius: 100%;
+                display: inline-block;
+                transition: all .3s;
+                i{
+                  width: 42px;
+                  height: 42px;
+                  line-height: 42px;
+                  font-size: 18px;
+                  text-align: center;
+                  border-radius: 50%;
+                }
+                &.facebook {
+                  color: #3b5998;
+                  &:hover {
+                    background: #3b5998;
+                  }
+                }
+                &.twitter {
+                  color: #55acee;
+                  &:hover {
+                    background: #55acee;
+                  }
+                }
+                &.youtube {
+                  color: #b31217;
+                  &:hover {
+                    background: #b31217;
+                  }
+                }
+                &.instagram {
+                  color: #3f729b;
+                  &:hover {
+                    background: #3f729b;
+                  }
+                }
+                &:hover{
+                  color: #ffffff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
