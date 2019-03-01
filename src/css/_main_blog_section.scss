@@ -54,3 +54,18 @@
     }
   }
 }
+.instagram{
+  .blog-content {
+    .blog-item {
+      cursor: pointer;
+      article.paper {
+        div{
+          min-height: 250px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+    }
+  }
+}

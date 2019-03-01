@@ -5,6 +5,7 @@ footer{
       .col-12{
         &.about-us{
           .navbar-brand{
+            max-width: 170px;
             img{
               width: 100%;
             }
@@ -13,6 +14,7 @@ footer{
         &.social{
           .social-list{
             li{
+              margin: 5px;
               a{
                 background: #1b1b1b;
                 border-radius: 100%;
@@ -48,6 +50,12 @@ footer{
                   color: #3f729b;
                   &:hover {
                     background: #3f729b;
+                  }
+                }
+                &.telegram {
+                  color: #00ace9;
+                  &:hover {
+                    background: #00ace9;
                   }
                 }
                 &:hover{
