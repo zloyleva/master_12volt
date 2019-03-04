@@ -1,0 +1,31 @@
+.container.pagination-section{
+  .row{
+    .pagination-wrap{
+      .pagination {
+        .page-number{
+          text-transform: uppercase;
+          text-align: center;
+        }
+        a{
+          @include light-link;
+          text-decoration: none;
+          text-transform: uppercase;
+          i{
+            margin-left: 0px;
+            transition: margin .3s;
+          }
+          &.back-posts:hover{
+            i{
+              margin-right: 10px;
+            }
+          }
+          &.older-posts:hover{
+            i{
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

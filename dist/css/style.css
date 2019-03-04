@@ -55,6 +55,13 @@ main {
       border-radius: 4px;
       background-color: #fff; }
 
+.blog-section.paper .row.blog-header h2 {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: bold; }
+
 .blog-section .blog-content .blog-item article.paper {
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -106,6 +113,26 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
+
+.container.pagination-section .row .pagination-wrap .pagination .page-number {
+  text-transform: uppercase;
+  text-align: center; }
+
+.container.pagination-section .row .pagination-wrap .pagination a {
+  color: #343a40;
+  transition: all .25s;
+  text-decoration: none;
+  text-transform: uppercase; }
+  .container.pagination-section .row .pagination-wrap .pagination a:hover {
+    text-decoration: unset;
+    color: #ed1c24; }
+  .container.pagination-section .row .pagination-wrap .pagination a i {
+    margin-left: 0px;
+    transition: margin .3s; }
+  .container.pagination-section .row .pagination-wrap .pagination a.back-posts:hover i {
+    margin-right: 10px; }
+  .container.pagination-section .row .pagination-wrap .pagination a.older-posts:hover i {
+    margin-left: 10px; }
 
 footer {
   background-color: #343a40; }

@@ -1,4 +1,15 @@
 .blog-section{
+
+  &.paper{
+    .row.blog-header{
+      h2{
+        @include paper;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+
   .blog-content{
     .blog-item{
       article.paper{
