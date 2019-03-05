@@ -13,6 +13,25 @@
   .blog-content{
     .blog-item{
       article.paper{
+
+        .article-title{
+          .title{
+            @include light-link;
+            font-weight: bold;
+          }
+          .meta{
+            span{
+              font-size: 12px;
+              i{
+                font-size: 12px;
+              }
+              a{
+                @include light-link;
+              }
+            }
+          }
+        }
+
         @include paper;
         overflow: hidden;
         .article-header{
@@ -58,6 +77,25 @@
               i{
                 margin-left: 10px;
               }
+            }
+          }
+        }
+      }
+      &.paper{
+        @include paper;
+      }
+      &.sidebar{
+        .sidebar-header{
+          h4{
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+        }
+        .sidebar-menu{
+          li{
+            a{
+              @include light-link;
+              text-decoration: none;
             }
           }
         }

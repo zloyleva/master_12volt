@@ -67,6 +67,23 @@ main {
   border-radius: 4px;
   background-color: #fff;
   overflow: hidden; }
+  .blog-section .blog-content .blog-item article.paper .article-title .title {
+    color: #343a40;
+    transition: all .25s;
+    font-weight: bold; }
+    .blog-section .blog-content .blog-item article.paper .article-title .title:hover {
+      text-decoration: unset;
+      color: #ed1c24; }
+  .blog-section .blog-content .blog-item article.paper .article-title .meta span {
+    font-size: 12px; }
+    .blog-section .blog-content .blog-item article.paper .article-title .meta span i {
+      font-size: 12px; }
+    .blog-section .blog-content .blog-item article.paper .article-title .meta span a {
+      color: #343a40;
+      transition: all .25s; }
+      .blog-section .blog-content .blog-item article.paper .article-title .meta span a:hover {
+        text-decoration: unset;
+        color: #ed1c24; }
   .blog-section .blog-content .blog-item article.paper .article-header {
     height: 16rem; }
     .blog-section .blog-content .blog-item article.paper .article-header a {
@@ -105,6 +122,23 @@ main {
       transition: margin-left .3s; }
     .blog-section .blog-content .blog-item article.paper .card-footer a:hover i {
       margin-left: 10px; }
+
+.blog-section .blog-content .blog-item.paper {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #fff; }
+
+.blog-section .blog-content .blog-item.sidebar .sidebar-header h4 {
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.blog-section .blog-content .blog-item.sidebar .sidebar-menu li a {
+  color: #343a40;
+  transition: all .25s;
+  text-decoration: none; }
+  .blog-section .blog-content .blog-item.sidebar .sidebar-menu li a:hover {
+    text-decoration: unset;
+    color: #ed1c24; }
 
 .instagram .blog-content .blog-item {
   cursor: pointer; }
